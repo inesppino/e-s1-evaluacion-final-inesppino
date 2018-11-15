@@ -25,9 +25,22 @@
 
 }
 
-.arrow-footer{
-    
-
+.btn--footer:hover{
+    animation-name: flux;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    @keyframes flux {
+        0% {
+        top: -35%;
+        }
+        50% {
+          top: -25%;
+        }
+        100% {
+          top: -35%;
+        }
+    }
 }
 
 .stamp{
