@@ -37,21 +37,24 @@
     height: 45px;
     border-radius: 22.5px;
     border: solid 2px #f26002;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.go-there{
-    text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 20px;
     color: #f26002;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: color ease .6s;
+    transition: background-color ease .6s;
 }
 
+.container-go-there:hover{
+    background-color: #f26002;
+    color: #ffffff;
+}
+
+//3 Reasons
 .second-part{
     background-color: #eff9ff;
     padding: 30px 15px 60px;
@@ -108,4 +111,14 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 20px;
+    cursor: pointer;
+    transition: color ease .6s;
+    transition: background-color ease .6s;
+    
+}
+
+.btn-reasons:hover{
+    color: #f26002;
+    background-color: #ffffff;
+    border: solid 2px #f26002;
 }
