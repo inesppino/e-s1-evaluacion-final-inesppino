@@ -168,5 +168,29 @@
 
 //Desktop
 @media all and (min-width: 1200px){
-    
+    .wrapper-main{
+    padding: 60px 0 0;
+    }
+
+    .title{
+        font-size: 32px;
+        line-height: 45px;
+    }
+
+    .tips{
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .first-part{
+        max-width: 730px;
+        padding: 0px 275px 60px;
+        margin-bottom: 0px;
+    }
+
+    .second-part{
+        padding: 60px 0;
+    }
+
+
 } 
