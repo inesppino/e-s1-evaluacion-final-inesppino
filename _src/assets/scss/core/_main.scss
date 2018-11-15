@@ -1,9 +1,17 @@
 
+.wrapper-main{
+    position: relative;
+}
+
 .first-part{
     padding: 30px 15px 0;
     background-color: #ffffff;
     max-width: 290px;
     margin-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 
 }
 
@@ -14,6 +22,7 @@
     font-size: 14px;
     font-weight: 400;
 }
+
 
 .title{
     text-transform: capitalize;
@@ -125,6 +134,35 @@
 
 //Tablet
 @media all and (min-width: 768px){
+    .first-part{
+        max-width: 690px;
+        padding: 30px 39px 60px;
+        margin-bottom: 0px;
+    }
+
+    .title{
+        font-size: 26px;
+    }
+
+    .content-first-main{
+        font-size: 20px;
+        margin: 30px 0 30px;
+    }
+
+    .second-part{
+        padding: 30px 38px 60px;
+    
+    }
+
+    //VOLVER A MIRAR, NO CUADRA CON EJEMPLO DADO
+    .list-purchase{
+        margin-bottom: 60px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: none;
+        grid-column-gap: 27.7px;
+    
+    }
 
 }
 
