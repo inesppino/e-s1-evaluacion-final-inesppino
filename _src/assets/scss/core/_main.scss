@@ -1,9 +1,14 @@
 
 .wrapper-main{
     position: relative;
-    margin: 0;
-    padding: 0;
-    background-color: yellow;
+    padding: 60px 15px 0;
+    background-color: #ffffff;
+    margin-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 #go-main{
@@ -12,16 +17,7 @@
 }
 
 .first-part{
-    padding: 60px 15px 0;
-    background-color: #ffffff;
     max-width: 290px;
-    margin-bottom: 45px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    background-color: red;
-
 }
 
 .tips{
@@ -143,11 +139,15 @@
 
 //Tablet
 @media all and (min-width: 768px){
-    .first-part{
-        width: 100%;
-        // max-width: 690px;
+    .wrapper-main{
         padding: 30px 39px 60px;
         margin-bottom: 0px;
+    }
+
+    .first-part{
+        width: 100%;
+        max-width: 690px;
+       
     }
 
     .title{
@@ -189,11 +189,14 @@
         line-height: 30px;
     }
 
-    .first-part{
-        // max-width: 730px;
-        width: 100%;
+    .wrapper-main{
         padding: 60px 275px 60px;
         margin-bottom: 0px;
+    }
+
+    .first-part{
+        max-width: 730px;
+        
     }
 
     .second-part{
