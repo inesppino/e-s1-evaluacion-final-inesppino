@@ -1,0 +1,52 @@
+
+.hero{
+    padding: 0 15px;
+    background-image: url(../images/cover.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.hero-text{
+    text-align: center;
+
+}
+
+.hero-title{
+    font-family: 'Roboto Slab', serif;
+    font-size: 42px;
+    line-height: 55px;
+    color: #ffffff;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+
+}
+
+.hero-content{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0 0 45px;
+
+}
+
+.btn--hero{
+    background-color: #ffffff;
+    width: 45px;
+    height: 45px;
+    border-radius: 22.5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 53px;
+
+}
