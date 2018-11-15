@@ -1,0 +1,16 @@
+.header{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#0271bc;
+}
+
+.header:hover{
+    background-color: #304268;
+}
+
+// .header:active{
+//     box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.29), inset 1px 1px 3px rgba(0, 0, 0, 0.8);
+// }
