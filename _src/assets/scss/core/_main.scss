@@ -1,10 +1,18 @@
 
 .wrapper-main{
     position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+}
+
+#go-main{
+    width: 0px;
+    height: 0px;
 }
 
 .first-part{
-    padding: 30px 15px 0;
+    padding: 60px 15px 0;
     background-color: #ffffff;
     max-width: 290px;
     margin-bottom: 45px;
@@ -12,6 +20,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    background-color: red;
 
 }
 
@@ -135,7 +144,8 @@
 //Tablet
 @media all and (min-width: 768px){
     .first-part{
-        max-width: 690px;
+        width: 100%;
+        // max-width: 690px;
         padding: 30px 39px 60px;
         margin-bottom: 0px;
     }
@@ -168,9 +178,6 @@
 
 //Desktop
 @media all and (min-width: 1200px){
-    .wrapper-main{
-    padding: 60px 0 0;
-    }
 
     .title{
         font-size: 32px;
@@ -183,13 +190,27 @@
     }
 
     .first-part{
-        max-width: 730px;
-        padding: 0px 275px 60px;
+        // max-width: 730px;
+        width: 100%;
+        padding: 60px 275px 60px;
         margin-bottom: 0px;
     }
 
     .second-part{
         padding: 60px 0;
+    }
+
+    .list-purchase{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: none;
+        grid-column-gap: 52.4px;
+    
+    }
+
+    .description{
+        max-width: 354px;
+        font-size: 20px;
     }
 
 
