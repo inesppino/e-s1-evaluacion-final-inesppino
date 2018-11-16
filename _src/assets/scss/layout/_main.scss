@@ -157,7 +157,7 @@
     .list-purchase{
         margin-bottom: 60px;
         max-width: 690px;
-        margin: 0 auto;
+        margin: 0 auto 60px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: none;
@@ -196,7 +196,7 @@
 
     .list-purchase{
         display: grid;
-        margin: 0 auto;
+        margin: 0 auto 60px;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: none;
         grid-column-gap: 52.4px;
