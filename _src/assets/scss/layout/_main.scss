@@ -140,12 +140,6 @@
         margin-bottom: 0px;
     }
 
-    .first-part{
-        // width: 100%;
-        // max-width: 690px;
-       
-    }
-
     .title{
         font-size: 26px;
     }
@@ -160,9 +154,10 @@
     
     }
 
-    //VOLVER A MIRAR, NO CUADRA CON EJEMPLO DADO
     .list-purchase{
         margin-bottom: 60px;
+        max-width: 690px;
+        margin: 0 auto;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: none;
@@ -201,6 +196,7 @@
 
     .list-purchase{
         display: grid;
+        margin: 0 auto;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: none;
         grid-column-gap: 52.4px;
