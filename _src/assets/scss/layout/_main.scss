@@ -1,8 +1,8 @@
 
 .wrapper-main{
     position: relative;
-    padding: 60px 15px 0;
-    background-color: #ffffff;
+    padding: 60px 80px 0 15px;
+    background-color: $color-primary;
     margin-bottom: 45px;
     display: flex;
     flex-direction: column;
@@ -16,15 +16,10 @@
     height: 0px;
 }
 
-.first-part{
-    max-width: 290px;
-    flex-grow: 2;
-}
-
 .tips{
     margin: 0;
     color: #8ccbea;
-    font-family: 'Roboto', sans-serif;
+    font-family: $text-font;
     font-size: 14px;
     font-weight: 400;
 }
@@ -32,17 +27,17 @@
 
 .title{
     text-transform: capitalize;
-    font-family: 'Roboto Slab', serif;
+    font-family: $title-font;
     font-size: 24px;
     margin: 1px 0 0;
 
 }
 
 .content-first-main{
-    font-family: 'Roboto', sans-serif;
+    font-family: $text-font;
     font-weight: 400;
     font-size: 18px;
-    color:#4a4a4a;
+    color: $color-tertiary;
     margin: 15px 0 30px;
 
 }
@@ -51,11 +46,11 @@
     width: 76px;
     height: 45px;
     border-radius: 22.5px;
-    border: solid 2px #f26002;
-    font-family: 'Roboto', sans-serif;
+    border: solid 2px $color-theme;
+    font-family: $component-font;
     font-weight: 500;
     font-size: 20px;
-    color: #f26002;
+    color: $color-theme;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,8 +60,8 @@
 }
 
 .container-go-there:hover{
-    background-color: #f26002;
-    color: #ffffff;
+    background-color: $color-theme;
+    color: $color-primary;
 }
 
 //3 Reasons
@@ -93,13 +88,13 @@
 }
 
 .secondtitle{
-    font-family: 'Roboto Slab', serif;
+    font-family: $title-font;
     font-size: 18px;
     text-align: center;
 }
 
 .description{
-    font-family: 'Roboto', sans-serif;
+    font-family: $text-font;
     font-weight: 400;
     font-size: 18px;
     text-align: center;
@@ -118,12 +113,12 @@
     width: 184px;
     height: 45px;
     border-radius: 22.5px;
-    background-color: #f26002;
-    color:#ffffff;
+    background-color: $color-theme;
+    color: $color-primary;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: $component-font;
     font-weight: 500;
     font-size: 20px;
     cursor: pointer;
@@ -133,9 +128,9 @@
 }
 
 .btn-reasons:hover{
-    color: #f26002;
-    background-color: #ffffff;
-    border: solid 2px #f26002;
+    color: $color-theme;
+    background-color: $color-primary;
+    border: solid 2px $color-theme;
 }
 
 //Tablet
@@ -146,8 +141,8 @@
     }
 
     .first-part{
-        width: 100%;
-        max-width: 690px;
+        // width: 100%;
+        // max-width: 690px;
        
     }
 
